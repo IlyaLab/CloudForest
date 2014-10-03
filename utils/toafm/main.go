@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/ryanbressler/CloudForest"
+	"github.com/IlyaLab/CloudForest"
 	"log"
 	"os"
 	"strings"
