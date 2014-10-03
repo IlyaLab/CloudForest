@@ -24,11 +24,11 @@ The API hasn't stabilized yet and may change rapidly. Tests and benchmarks have 
 only on embargoed data sets and can not yet be released.
 
 Library Documentation is in code and can be viewed with godoc or live at:
-http://godoc.org/github.com/ryanbressler/CloudForest
+http://godoc.org/github.com/IlyaLab/CloudForest
 
 Documentation of command line utilities and file formats can be found in README.md, which can be
 viewed fromated on github:
-http://github.com/ryanbressler/CloudForest
+http://github.com/IlyaLab/CloudForest
 
 Pull requests and bug reports are welcome.
 

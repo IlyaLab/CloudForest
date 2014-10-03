@@ -1,3 +1,3 @@
-go install github.com/ryanbressler/CloudForest/growforest
-go install github.com/ryanbressler/CloudForest/applyforest
-go install github.com/ryanbressler/CloudForest/leafcount
+go install github.com/IlyaLab/CloudForest/growforest
+go install github.com/IlyaLab/CloudForest/applyforest
+go install github.com/IlyaLab/CloudForest/leafcount
