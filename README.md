@@ -55,9 +55,9 @@ Documentation for coding against CloudForest has been generated with godoc and c
 http://godoc.org/github.com/ryanbressler/CloudForest
 
 Pull requests, spelling corrections and bug reports are welcome; Code Repo and Issue tracker can be found at:
-https://github.com/ryanbressler/CloudForest
+https://github.com/IlyaLab/CloudForest
 
-CloudForest is being developed in the Shumelivich Lab at the Institute for Systems
+CloudForest is being developed in the Shmulevich Lab at the Institute for Systems
 Biology.
 
 ([Build status](https://travis-ci.org/ryanbressler/CloudForest.png?branch=master) includes accuracy tests on 
@@ -68,26 +68,26 @@ Installation
 With [go installed](http://golang.org/doc/install):
 
 ```bash
-go get github.com/ryanbressler/CloudForest
-go install github.com/ryanbressler/CloudForest/growforest
-go install github.com/ryanbressler/CloudForest/applyforest
+go get github.com/IlyaLab/CloudForest
+go install github.com/IlyaLab/CloudForest/growforest
+go install github.com/IlyaLab/CloudForest/applyforest
 
 #optional utilities
-go install github.com/ryanbressler/CloudForest/leafcount
-go install github.com/ryanbressler/CloudForest/utils/nfold
-go install github.com/ryanbressler/CloudForest/utils/toafm
+go install github.com/IlyaLab/CloudForest/leafcount
+go install github.com/IlyaLab/CloudForest/utils/nfold
+go install github.com/IlyaLab/CloudForest/utils/toafm
 ```
 
 To update to the latest version use the -u flag
 ```bash
-go get -u github.com/ryanbressler/CloudForest
-go install -u github.com/ryanbressler/CloudForest/growforest
-go install -u github.com/ryanbressler/CloudForest/applyforest
+go get -u github.com/IlyaLab/CloudForest
+go install -u github.com/IlyaLab/CloudForest/growforest
+go install -u github.com/IlyaLab/CloudForest/applyforest
 
 #optional utilities
-go install -u github.com/ryanbressler/CloudForest/leafcount
-go install -u github.com/ryanbressler/CloudForest/utils/nfold
-go install -u github.com/ryanbressler/CloudForest/utils/toafm
+go install -u github.com/IlyaLab/CloudForest/leafcount
+go install -u github.com/IlyaLab/CloudForest/utils/nfold
+go install -u github.com/IlyaLab/CloudForest/utils/toafm
 ```
 
 
