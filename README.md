@@ -83,13 +83,19 @@ iris and Boston housing price datasets and multiple go versions.)
 
 Installation
 -------------
-With [go installed](http://golang.org/doc/install):
+With [go installed](http://golang.org/doc/install) (make sure to set the GOPATH environment variable):
 
 ```bash
 go get github.com/IlyaLab/CloudForest
+```
+Or alternatively:
+```bash
+git clone https://github.com/IlyaLab/CloudForest $GOPATH/src/github.com/IlyaLab/CloudForest
+```
+Then
+```bash
 go install github.com/IlyaLab/CloudForest/growforest
 go install github.com/IlyaLab/CloudForest/applyforest
-
 #optional utilities
 go install github.com/IlyaLab/CloudForest/leafcount
 go install github.com/IlyaLab/CloudForest/utils/nfold
