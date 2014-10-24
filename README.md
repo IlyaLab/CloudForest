@@ -16,7 +16,7 @@ Contents:
 
 [Variable Importance](#variable-importance) [Importance with P-Values Via Artificial Contrasts](#importance-with-p-values-via-artificial-contrasts)
 
-[Improved Feature Selection](#improved-feature-selection)
+[Feature Selection](#feature-selection)
 
 
 [Data With Unbalanced Classes](#data-with-unbalanced-classes) [Missing Values](#missing-values)
@@ -367,7 +367,7 @@ growforest -train housing.arff -target class -ace 10 -importance bostanimp.tsv -
 ``` 
 
 
-Improved Feature Selection 
+Feature Selection 
 --------------------------
 
 Genomic data is frequently has many noisy, high cardinality, uninformative features which can lead to in bag over fitting. To combat this, 
