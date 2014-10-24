@@ -6,8 +6,9 @@ CloudForest
 Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
-[Introduction](#Introduction)
-[Installation](#Installation)
+[Introduction](#introduction)
+
+[Installation](#installation)
 
 
 
