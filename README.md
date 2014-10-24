@@ -7,33 +7,19 @@ Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
 Contents:
-[Introduction](#introduction)
+[Introduction](#introduction) [Installation](#installation) [Quick Start](#quick-start)
 
-[Installation](#installation)
+[Growforest Utility](#growforest-utility) [Applyforrest Utility](#applyforrest-utility)
 
-[Quick Start](#quick-start)
+[Leafcount Utility](#leafcount-utility) [nfold utility](#nfold-utility)
 
-[Growforest Utility](#growforest-utility)
-
-[Applyforrest Utility](#applyforrest-utility)
-
-[Leafcount Utility](#leafcount-utility)
-
-[nfold utility](#nfold-utility)
-
-[Variable Importance](#variable-importance)
-
-[Importance with P-Values Via Artificial Contrasts/ACE](#importance-with-p-values-via-artificial-contrasts/ace)
+[Variable Importance](#variable-importance) [Importance with P-Values Via Artificial Contrasts](#importance-with-p-values-via-artificial-contrasts)
 
 [Improved Feature Selection](#improved-feature-selection)
 
-[Data With Unbalanced Classes](#data-with-unbalanced-classes)
+[Data With Unbalanced Classes](#data-with-unbalanced-classes) [Missing Values](#missing-values)
 
-[Missing Values](#missing-values)
-
-[Models - Stochastic Forest Files](#models---stochastic-forest-files)
-
-[Compiling for Speed](#compiling-for-speed)
+[Models - Stochastic Forest Files](#models---stochastic-forest-files) [Compiling for Speed](#compiling-for-speed)
 
 [References](#references)
 
