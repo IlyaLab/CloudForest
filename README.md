@@ -7,7 +7,8 @@ Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
 Contents:
-[Introduction](#introduction) [Installation](#installation) [Quick Start](#quick-start)
+*[Introduction](#introduction) 
+*[Installation](#installation) [Quick Start](#quick-start)
 
 [Growforest Utility](#growforest-utility) [Applyforrest Utility](#applyforrest-utility)
 
@@ -36,7 +37,7 @@ and structure analysis on heterogeneous numerical / categorical data with missin
 * Gradient Boosting Tree Regression
 * Entropy, Cost driven and Class Weighted classification
 * L1/Absolute Deviance Decision Tree regression
-* Improved Feature Selection with artificial contrasts with ensembles (ACE)
+* Feature Selection with artificial contrasts with ensembles (ACE)
 * Roughly Balanced Bagging for Unbalanced Data
 * Improved robustness using out of bag cases and artificial contrasts.
 * Support for missing values via bias correction or three way splitting.
