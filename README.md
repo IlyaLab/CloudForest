@@ -7,8 +7,8 @@ Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
 Contents:
-[Introduction](#introduction) 
-[Installation](#installation) [Quick Start](#quick-start)
+* [Introduction](#introduction) 
+* [Installation](#installation) [Quick Start](#quick-start)
 
 [Growforest Utility](#growforest-utility) [Applyforrest Utility](#applyforrest-utility)
 
