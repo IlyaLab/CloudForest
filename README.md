@@ -334,7 +334,7 @@ The option to permute the target (-permute) will establish a minimum random base
 regular expression (-shuffleRE) to shuffle part of the data can be useful in teasing out the contributions of 
 different subsets of features.
 
-Importance with P-Values Via Artificial Contrasts/ACE
+Importance with P-Values Via Artificial Contrasts
 -----------------------------------------------------
 P-values can be established for importance scores by comparing the importance score for each feature to that of
 shuffled copy of itself or artificial contrast over a number of runs. This algorithm is described in Tuv's 
