@@ -7,9 +7,9 @@ Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
 [Introduction](#introduction)
-
 [Installation](#installation)
-
+[Quick Start](#quick-start)
+[Growforest Utility](#growforest-utility)
 
 
 
@@ -297,7 +297,7 @@ Usage of nfold:
   -writelibsvm=false: Output libsvm.
 ```
 
-Importance
+Variable Importance
 ----------
 
 Variable Importance in CloudForest is based on the as the mean decrease in impurity over all of
