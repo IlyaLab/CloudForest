@@ -6,6 +6,17 @@ CloudForest
 Fast, flexible, multi-threaded ensembles of decision trees for machine
 learning in pure Go (golang). 
 
+[Introduction](#Introduction)
+[Installation](#Installation)
+
+
+
+
+
+
+Introduction
+-------------
+
 CloudForest allows for a number of related algorithms for classification, regression, feature selection 
 and structure analysis on heterogeneous numerical / categorical data with missing values. These include:
 
@@ -49,15 +60,13 @@ parameter sweeps to maximize accuracy.
 Command line utilities to grow, apply and analyze forests and do cross validation are provided or 
 CloudForest can be used as a library in go programs.
 
-This Document covers command line usage, file formats and some algorithmic background.
-
 Documentation for coding against CloudForest has been generated with godoc and can be viewed live at:
 http://godoc.org/github.com/ryanbressler/CloudForest
 
 Pull requests, spelling corrections and bug reports are welcome; Code Repo and Issue tracker can be found at:
-https://github.com/IlyaLab/CloudForest
+https://github.com/ryanbressler/CloudForest, which is the original and continuously updated code repository.
 
-CloudForest is being developed in the Shmulevich Lab at the Institute for Systems
+CloudForest has been developed in the Shmulevich Lab at the Institute for Systems
 Biology.
 
 ([Build status](https://travis-ci.org/ryanbressler/CloudForest.png?branch=master) includes accuracy tests on 
@@ -77,20 +86,6 @@ go install github.com/IlyaLab/CloudForest/leafcount
 go install github.com/IlyaLab/CloudForest/utils/nfold
 go install github.com/IlyaLab/CloudForest/utils/toafm
 ```
-
-To update to the latest version use the -u flag
-```bash
-go get -u github.com/IlyaLab/CloudForest
-go install -u github.com/IlyaLab/CloudForest/growforest
-go install -u github.com/IlyaLab/CloudForest/applyforest
-
-#optional utilities
-go install -u github.com/IlyaLab/CloudForest/leafcount
-go install -u github.com/IlyaLab/CloudForest/utils/nfold
-go install -u github.com/IlyaLab/CloudForest/utils/toafm
-```
-
-
 
 Quick Start
 -------------
